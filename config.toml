@@ -2,11 +2,11 @@ baseURL = "http://typistmingtse.github.io/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-tw"
 # 网站语言, 仅在这里 CN 大写
-languageCode = "zh-tw"
+languageCode = "zh-TW"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "Hugo 部落格 Demo"
+title = "> [Mt@Lab]"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
@@ -14,6 +14,10 @@ theme = "LoveIt"
 [params]
   # LoveIt 主题版本
   version = "0.2.X"
+
+[Author]
+  name = "MT"
+  homepage = "https://typistmingtse.github.io/"
 
 [menu]
   [[menu.main]]
@@ -31,7 +35,7 @@ theme = "LoveIt"
     identifier = "tags"
     pre = ""
     post = ""
-    name = "标签"
+    name = "標籤"
     url = "/tags/"
     title = ""
     weight = 2
@@ -39,7 +43,7 @@ theme = "LoveIt"
     identifier = "categories"
     pre = ""
     post = ""
-    name = "分类"
+    name = "分類"
     url = "/categories/"
     title = ""
     weight = 3
